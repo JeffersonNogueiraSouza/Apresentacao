@@ -129,11 +129,23 @@ label {
 	width: 15em;
 }
 
+label1 {
+	font-weight: bold;
+	margin-right: 10px;
+	width: 15em;
+}
+
 label:after {
 	content: ":";
 }
+label1:after {
+	content: "";
+}
 
 form label {
+	display: block;
+}
+form label1 {
 	display: block;
 }
 
